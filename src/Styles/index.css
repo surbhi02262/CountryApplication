@@ -3,3 +3,31 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.menuItems {
+  height: 80px;
+}
+.menu-item-container {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-color: teal;
+  height: 80px;
+  line-height: 50px;
+}
+
+.menu-item-container li {
+  float: left;
+  padding: 10px 60px;
+}
+.item-details {
+  display: inline-block;
+  width: 280px;
+  float: left;
+  height: 350px;
+  border: 2px solid red;
+}
+.flag-image-container img {
+  height: 200px;
+  width: 100%;
+}
